@@ -9,3 +9,7 @@
 - POST /api/v1/notes
 - PUT /api/v1/notes/{note_id}
 - DELETE /api/v1/notes/{note_id}
+
+### dependencies
+
+- node >= v20.17
