@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/v1/notes"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "notes.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

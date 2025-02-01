@@ -1,0 +1,13 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "DELETE",
+    "urlPathPattern": "/api/v1/notes/([0-9])"
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

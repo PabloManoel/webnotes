@@ -1,0 +1,12 @@
+services:
+  wiremock:
+    image: "holomekc/wiremock-gui:2.33.2.1"
+    platform: linux/amd64
+    container_name: webnotes_wiremock
+    ports:
+      - "8099:8089"
+      - "8084:8088"
+    environment:
+      WIREMOCK_OPTIONS: "--port=8089,--https-port=8099,--max-request-journal=1000,--local-response-templating,--root-dir=/home/wiremock/storage"
+    volumes:
+      - ./wiremock:/home/wiremock/storage
