@@ -1,11 +1,12 @@
 {
   "priority": 1,
   "request": {
-    "method": "POST",
-    "urlPathPattern": "/api/v1/notes"
+    "method": "GET",
+    "urlPathPattern": "/api/v1/notes/2"
   },
   "response": {
-    "status": 201,
+    "status": 200,
+    "bodyFileName": "note-2.json",
     "headers": {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
